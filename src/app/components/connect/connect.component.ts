@@ -264,7 +264,7 @@ export class ConnectComponent implements AfterViewInit {
       kind: 'linkedin',
       label: 'LinkedIn',
       handle: 's-keerthana-4a0451280',
-      url: 'https://www.linkedin.com/in/s-keerthana-4a0451280'
+      url: 'https://www.linkedin.com/in/keerthana-s-4a0451280/'
     },
     {
       kind: 'github',
