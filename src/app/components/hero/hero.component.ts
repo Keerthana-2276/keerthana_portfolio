@@ -225,7 +225,7 @@ export class HeroComponent implements AfterViewInit, OnDestroy {
   stats = [
     { value: '4',   label: 'Projects Built' },
     { value: '3',   label: 'Hackathon Prizes' },
-    { value: '8.0', label: 'CGPA (Sem 5)' },
+    { value: '8.22', label: 'CGPA (Sem 5)' },
     { value: '1st', label: 'BlissBot Award' },
   ];
 
