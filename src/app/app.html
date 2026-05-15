@@ -1,0 +1,41 @@
+@if (showLoader()) {
+  <div class="loader" aria-hidden="true">
+    <div class="loader__core">
+      <div class="loader__ring loader__ring--outer"></div>
+      <div class="loader__ring loader__ring--mid"></div>
+      <div class="loader__ring loader__ring--inner"></div>
+      <div class="loader__pulse"></div>
+      <div class="loader__beam"></div>
+      <div class="loader__grid"></div>
+    </div>
+    <div class="loader__text">
+      <p class="loader__label">SYNCING NEURAL PORTFOLIO</p>
+      <div class="loader__code-line">
+        <span></span>
+      </div>
+      <p class="loader__meta">BOOT SEQUENCE • 0.3s</p>
+    </div>
+  </div>
+}
+
+<div class="progress-rail" aria-hidden="true">
+  <span class="progress-rail__fill" [style.transform]="progressScale()"></span>
+</div>
+
+<div
+  class="ambient-orb"
+  aria-hidden="true"
+  [style.left.px]="orbX()"
+  [style.top.px]="orbY()">
+</div>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+<app-cursor></app-cursor>
+<app-nav></app-nav>
+<main>
+  <app-hero></app-hero>
+  <app-stack></app-stack>
+  <app-lab></app-lab>
+  <app-experience></app-experience>
+  <app-connect></app-connect>
+</main>
