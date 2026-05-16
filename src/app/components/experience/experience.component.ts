@@ -74,7 +74,7 @@ gsap.registerPlugin(ScrollTrigger);
             <p class="experience__edu-period label-mono">2023 – Present · Chennai</p>
             <div class="experience__edu-gpa">
               <span class="experience__edu-gpa-label">CGPA</span>
-              <span class="experience__edu-gpa-value">8.0 / 10</span>
+              <span class="experience__edu-gpa-value">8.22 / 10</span>
             </div>
           </div>
 
